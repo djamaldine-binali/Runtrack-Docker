@@ -85,6 +85,8 @@ docker stop <container_name>
 ```
 This command allows us to stop a running container with its name. We can use the `docker ps` command to retrieve the name of the container and then use it.
 
+![alt text](images_docker/docker_stop_exemple.png)
+
 
 ```sh
 docker rm <container_name>
@@ -92,7 +94,6 @@ docker rm <container_name>
 
 Deletes a specific container. Here as we used the `--rm` option creating the container, it was deleted when stopped. We get an error message as it no longer exists.
 
-![alt text](images_docker/docker_rm.png)
 
 ```sh
 docker rmi <image_name>
@@ -104,19 +105,24 @@ This command deletes a specific image.
 
 
 ```sh
-docker rm container_name>
+docker rm <container_name>
 ```
+
+This command deletes a specific container
 
 ![alt text](images_docker/docker_stop_then_rm.png)
 
 I have created 3 containers beforehand then stopped and deleted the one named "container_1".
 
-`docker ps -a`allows us to see all containers, including does we stopped. We can see that "container_1" is deleted completely. 
+`docker ps -a`allows us to see all containers, including does we stopped. We can see that "container_1" is deleted completely after we used the command. 
 
 You can also combine both command to make it in one line like so (windows powershell):
 
 ![alt text](images_docker/docker_stop_and_rm.png)
 
+To delete multiple contenairs we just write all the names of those we want deleted after the command, separate with space, like so :
+
+ ![alt text](images_docker/docker_rm_multiple.png)
 
 ```sh
 docker container prune
