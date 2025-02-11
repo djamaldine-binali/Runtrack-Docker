@@ -67,3 +67,5 @@ Creating a container and making sure it's running with the correct Docker image 
 ![alt text](images/docker_run_and_check.png)
 
 ![alt text](images/Browser_port_check.png)
+
+![alt text](images/docker_few_tasks.png)
