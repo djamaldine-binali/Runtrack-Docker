@@ -76,7 +76,7 @@ Trying to apply change to the code
 
 Trying to apply change to the code doesn't work in real time because the container is still using the outdated version. Applying changes after the image was created won't modify anaything. 
 
-Here is an exemple when trying to change the background to orange and changes don't happen : 
+Here is an exemple when trying to change the background to red and changes don't happen : 
 
 ![alt text](images/changes_not_effective.png)
 
@@ -112,6 +112,22 @@ Pushing the image to Docker Hub.
 Checking on Docker Hub if the image is available.
 
 ![alt text](images/Checking_hub_available.png)
+
+```sh
+Pulling someone ele's image and testing commands
+```
+
+Pulling Yanis Benndji's image from Docker Hub. 
+
+![alt text](images/image_yanis.png)
+
+Running it with a container. 
+
+![alt text](images/running__yanis_image.png)
+
+Checking it on browser.
+
+![alt text](images/browser_yanis_image.png)
 
 
 
