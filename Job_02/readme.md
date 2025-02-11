@@ -5,3 +5,20 @@ We can open vscode's terminal using the "view" window on the top left side or by
 ```
 ![alt text](images/vscode_terminal.png)
 
+
+```sh
+ls
+```
+
+When we want to list files and directory in our current location we use this command, it allows us to see all of them. 
+
+![alt text](images/ls.png)
+
+```sh
+cd
+```
+
+The `cd` command can be used in many ways to acces files, one of which is to access those who are in current location. 
+Here, we start from the location "C:\Users\dbina\.vscode\Job_02" in which we can see using `ls` a file named welcome-to-docker . We access it simply by writing the file name after the command. 
+
+![alt text](images/cd.png)
