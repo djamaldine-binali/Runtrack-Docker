@@ -27,3 +27,11 @@ docker images
 Displays a list of the images you pulled and their satuts.
 
 ![alt text](<images_docker/Capture d'écran 2025-02-11 102225.png>)
+
+```sh
+docker run
+```
+
+Starts a new container and executes a command inside it, it pulls an image if needed. 
+
+![alt text](<images_docker/Capture d'écran 2025-02-11 102523.png>)
