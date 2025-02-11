@@ -143,3 +143,22 @@ This command forcefully deletes a container whether it's running or not so you d
 
 ![alt text](images_docker/docker_rm_f.png)
 
+```sh
+docker rmi <image_name>
+```
+To delete a specific image you need to stop and delete all containers using it then use the `docker rmi`command. 
+
+![alt text](images_docker/docker_rmi_exemple.png)
+
+```sh
+docker rmi <image_name> <image_name>
+```
+To delete multiple images, use the same command and process as before and write every image you want to delete seperated with space after the command.
+
+![alt text](images_docker/docker_rmi_multiple_exemple.png)
+
+```sh
+docker image prune -a
+```
+
+This command will delete all images that aren't in use.
