@@ -99,13 +99,14 @@ Deletes a specific container. Here as we used the `--rm` option creating the con
 docker rmi <image_name>
 ```
 
-This command deletes a specific image. Here we delete nginx's image.
-
-![alt text](images_docker/docker_rmi.png)
+This command deletes a specific image. 
 
 
 
-To delete a container we use the `docker rm`command like so.
+
+```sh
+docker rm container_name>
+```
 
 ![alt text](images_docker/docker_stop_then_rm.png)
 
