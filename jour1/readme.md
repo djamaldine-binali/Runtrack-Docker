@@ -102,3 +102,13 @@ docker rmi <image_name>
 This command deletes a specific image. Here we delete nginx's image.
 
 ![alt text](images_docker/docker_rmi.png)
+
+
+
+To delete a container we use the `docker rm`command like so.
+
+![alt text](images_docker/docker_stop_then_rm.png)
+
+I have created 3 containers beforehand then stopped and deleted the one named "container_1".
+
+`docker ps -a`allows us to see all containers, including does we stopped. We can see that "container_1" is deleted completely. 
