@@ -81,3 +81,14 @@ Here is an exemple when trying to change the background to orange and changes do
 ![alt text](images/changes_not_effective.png)
 
 ![alt text](images/browser_dont_change.png)
+
+```sh
+Creating a new image and running a new container with it after we applying changes.
+```
+Now that we did it in the right order, we can see our new beautiful background !
+
+![alt text](images/creating_new_image.png)
+
+![alt text](images/run_new_container.png)
+
+![alt text](images/new_browser_page.png)
