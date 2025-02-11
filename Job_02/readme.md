@@ -52,3 +52,10 @@ It's a plain text file used by Docker to specify files and/or directories that s
 
  ![alt text](images/Dockerfile.png)
 
+
+```sh
+docker build -t <my-image-name> .
+```
+`docker build` starts the image building process while `-t` names the image. The dot `.`means that the command will use the Dockerfile in this directory. 
+
+![alt text](images/creating_docker_image.png)
