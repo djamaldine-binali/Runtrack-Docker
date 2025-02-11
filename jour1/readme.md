@@ -70,3 +70,12 @@ Using docker run to create container for nginx's image. `-it`option allows to ru
   `-p` is used to assign a port for your image.
 
 ![alt text](<images_docker/Capture d'écran 2025-02-11 110716.png>)
+
+```sh
+Access container using an explorer
+``` 
+To acces your container using an exploreur, we use the port we assigned it as an url in the search tab.
+
+![alt text](<images_docker/Capture d'écran 2025-02-11 114853.png>)
+
+![alt text](<images_docker/Capture d'écran 2025-02-11 114619.png>)
