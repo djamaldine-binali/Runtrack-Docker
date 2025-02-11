@@ -48,13 +48,13 @@ Stops one or more running containers.
 ```sh
 docker pull
 ```
-The "docker pull" command downloads a Docker image locally on the host from a public or private registry. Here we pulled docker's latest image version using the ":latest" option.
+The "docker pull" command downloads a Docker image locally on the host from a public or private registry. Here we pulled nginx's latest image version using the ":latest" option.
 
-![alt text](<images_docker/Capture d'écran 2025-02-11 104027.png>)
+![alt text](<images_docker/Capture d'écran 2025-02-11 105748.png>)
 
 ```sh
 docker images
 ```
-As said previously, this command displays all of your images. Since we pulled docker's image, we can see where it's saved locally, which version we're using, its ID, when it was created and how much space it takes. 
+As said previously, this command displays all of your images. Since we pulled nginx's image, we can see where it's saved locally, which version we're using, its ID, when it was created and how much space it takes. 
 
-![alt text](<images_docker/Capture d'écran 2025-02-11 104609.png>)
+![alt text](<images_docker/Capture d'écran 2025-02-11 105955.png>)
