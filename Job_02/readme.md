@@ -69,3 +69,15 @@ Creating a container and making sure it's running with the correct Docker image 
 ![alt text](images/Browser_port_check.png)
 
 ![alt text](images/docker_few_tasks.png)
+
+```sh
+Trying to apply change to the code
+```
+
+Trying to apply change to the code doesn't work in real time because the container is still using the outdated version. Applying changes after the image was created won't modify anaything. 
+
+Here is an exemple when trying to change the background to orange and changes don't happen : 
+
+![alt text](images/changes_not_effective.png)
+
+![alt text](images/browser_dont_change.png)
