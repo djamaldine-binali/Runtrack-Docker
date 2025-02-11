@@ -128,9 +128,10 @@ Once it's done we can check again with `ps -a` to see if all went well.
 ![alt text](images_docker/docker_container_prune.png)
 
 ```sh
-docker rm -f
+docker rm -f <contenair_name/ID>
 ```
 
 This command forcefully deletes a container whether it's running or not so you don't need to stop it beforehand. You can use it with the container's name or ID.
 
 ![alt text](images_docker/docker_rm_f.png)
+
