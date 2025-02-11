@@ -44,3 +44,10 @@ docker stop
 Stops one or more running containers.
 
 ![alt text](<images_docker/Capture d'écran 2025-02-11 103429.png>)
+
+```sh
+docker pull
+```
+The "docker pull" command downloads a Docker image locally on the host from a public or private registry. Here we pulled docker's latest image version using the ":latest" option.
+
+![alt text](<images_docker/Capture d'écran 2025-02-11 104027.png>)
