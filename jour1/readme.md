@@ -116,3 +116,13 @@ I have created 3 containers beforehand then stopped and deleted the one named "c
 You can also combine both command to make it in one line like so (windows powershell):
 
 ![alt text](images_docker/docker_stop_and_rm.png)
+
+
+```sh
+docker container prune
+```
+
+We check chich container are stopped using `ps -a` then use the command to delete them.
+Once it's done we can check again with `ps -a` to see if all went well.
+
+![alt text](images_docker/docker_container_prune.png)
