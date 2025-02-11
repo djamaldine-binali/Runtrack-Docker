@@ -13,3 +13,10 @@ docker info
 Displays system wide information regarding the Docker installation 
 
 ![alt text](<images_docker/Capture d'écran 2025-02-11 100850.png>)
+
+```sh
+docker ps
+```
+Provides a list of conatiners on your machine as well as their specific state (running or not, size..)
+
+![alt text](<images_docker/Capture d'écran 2025-02-11 101642.png>)
