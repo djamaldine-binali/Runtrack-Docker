@@ -59,3 +59,11 @@ docker build -t <my-image-name> .
 `docker build` starts the image building process while `-t` names the image. The dot `.`means that the command will use the Dockerfile in this directory. 
 
 ![alt text](images/creating_docker_image.png)
+
+```sh
+Creating a container and making sure it's running with the correct Docker image as well as checking the port with my browser. 
+```
+
+![alt text](images/docker_run_and_check.png)
+
+![alt text](images/Browser_port_check.png)
