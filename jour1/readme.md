@@ -58,3 +58,15 @@ docker images
 As said previously, this command displays all of your images. Since we pulled nginx's image, we can see where it's saved locally, which version we're using, its ID, when it was created and how much space it takes. 
 
 ![alt text](<images_docker/Capture d'écran 2025-02-11 105955.png>)
+
+```sh
+docker run <image_name>
+```
+
+Using docker run to create container for nginx's image. `-it`option allows to run the container interacively. `-i` for interactive mode and `-t` for accessing terminal. This can be useful if the image you're running is an OS for exemple.
+
+  ```--rm``` option makes it so this container will be deleted if stopped. 
+
+  `-p` is used to assign a port for your image.
+
+![alt text](<images_docker/Capture d'écran 2025-02-11 110716.png>)
