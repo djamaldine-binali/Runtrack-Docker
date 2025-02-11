@@ -79,3 +79,10 @@ To acces your container using an exploreur, we use the port we assigned it as an
 ![alt text](<images_docker/docker_explorer_url.png>)
 
 ![alt text](<images_docker/nginx_explorer.png>)
+
+```sh
+docker stop <container_name>
+```
+This command allows us to stop a running container.
+
+![alt text](<images_docker/Capture d'écran 2025-02-11 120959.png>)
