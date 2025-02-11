@@ -109,4 +109,10 @@ Pushing the image to Docker Hub.
 
 ![alt text](images/pushing_image.png)
 
-Checking on Docker Hub if the image is available 
+Checking on Docker Hub if the image is available.
+
+![alt text](images/Checking_hub_available.png)
+
+
+
+
