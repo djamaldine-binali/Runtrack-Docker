@@ -170,7 +170,7 @@ This command will delete all images that aren't in use.
 docker rmi -f $(docker images -q)
 ```
 
-Once every container running with any image has been stopped, this command will let you delete said images. Images CANNOT be deleted if the containers running them aren't stopped. You can use this command : `docker stop $(docker ps -q)` to stop every running containers beforehand.
+Once every container running with any image has been stopped, this command will let you force delete said images. Images CANNOT be deleted if the containers running them aren't stopped. You can use this command : `docker stop $(docker ps -q)` to stop every running containers beforehand.
 
 ![alt text](images_docker/docker_rmi_running.png)
 
