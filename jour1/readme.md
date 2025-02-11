@@ -5,7 +5,9 @@ docker version
 ```
 This command allows us to check which version of docker we're using.
 
+
 ![alt text](<images_docker/Capture d'écran 2025-02-11 100408.png>)
+
 
 ```sh
 docker info
@@ -35,3 +37,10 @@ docker run
 Starts a new container and executes a command inside it, it pulls an image if needed. 
 
 ![alt text](<images_docker/Capture d'écran 2025-02-11 102523.png>)
+
+```sh
+docker stop
+```
+Stops one or more running containers.
+
+![alt text](<images_docker/Capture d'écran 2025-02-11 103429.png>)
