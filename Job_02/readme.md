@@ -44,3 +44,11 @@ It's a plain text file used by Docker to specify files and/or directories that s
 
  ![alt text](images/gitignore.png)
 
+ ```sh
+ Dockerfile
+ ```
+
+ A Dockerfile is a script that contains a set of instructions to automate the creation of Docker images. It defines how it should be built, configured, and run.
+
+ ![alt text](images/Dockerfile.png)
+
