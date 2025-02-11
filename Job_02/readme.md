@@ -33,3 +33,14 @@ There are multiple files in the "WELCOME-TO-DOCKER" folder. Let's take a look at
 It's a plain text file used by Docker to specify files and/or directories that should be ignored when building an image. It presents itself like so in ours :
 
  ![alt text](images/dockerignore.png)
+
+ ```sh
+ .gitignore
+ ```
+
+ This file is tailored for Node.js and JavaScript/TypeScript projects. 
+ A `.gitignore` file tells Git which files and directories to ignore, so they won't be tracked or committed in a repository.
+ It can keep the repository clean by avoiding unnecessary files, Improves performance by skipping temporary/cache files.. Among other things. 
+
+ ![alt text](images/gitignore.png)
+
