@@ -112,3 +112,7 @@ To delete a container we use the `docker rm`command like so.
 I have created 3 containers beforehand then stopped and deleted the one named "container_1".
 
 `docker ps -a`allows us to see all containers, including does we stopped. We can see that "container_1" is deleted completely. 
+
+You can also combine both command to make it in one line like so (windows powershell):
+
+![alt text](images_docker/docker_stop_and_rm.png)
