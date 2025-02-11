@@ -16,3 +16,10 @@ docker info
 docker ps
 ```
 ![alt text](<images_docker/Capture d'écran 2025-02-11 095526.png>)
+
+
+```sh
+docker images
+```
+
+![alt text](<images_docker/Capture d'écran 2025-02-11 095812.png>)
