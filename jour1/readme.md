@@ -85,5 +85,12 @@ docker stop <container_name>
 ```
 This command allows us to stop a running container with its name. We can use the `docker ps` command to retrieve the name of the container and then use it.
 
-![alt text](<images_docker/Capture d'écran 2025-02-11 120959.png>)
+![alt text](<images_docker/docker_stop_exemple.png>)
 
+```sh
+docker rm <container_name>
+```
+
+Deletes a specific container. Here as we used the `--rm` option creating the container, it was deleted when stopped. We get an error message as it no longer exists.
+
+![alt text](images_docker/docker_rm.png)
