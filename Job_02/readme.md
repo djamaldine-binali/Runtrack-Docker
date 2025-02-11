@@ -92,3 +92,21 @@ Now that we did it in the right order, we can see our new beautiful background !
 ![alt text](images/run_new_container.png)
 
 ![alt text](images/new_browser_page.png)
+
+```sh
+Creating new image that will be released on my DockerHub
+```
+
+Creating an image with my DockerHub username and specifying the version. 
+
+![alt text](images/creating_image_in_hub.png)
+
+Making sure I'm logged in. 
+
+![alt text](images/logged_in.png)
+
+Pushing the image to Docker Hub. 
+
+![alt text](images/pushing_image.png)
+
+Checking on Docker Hub if the image is available 
