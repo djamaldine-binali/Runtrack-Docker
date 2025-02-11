@@ -20,3 +20,10 @@ docker ps
 Provides a list of containers on your machine as well as their specific state (running or not, size..)
 
 ![alt text](<images_docker/Capture d'écran 2025-02-11 101642.png>)
+
+```sh
+docker images
+```
+Displays a list of the images you pulled and their satuts.
+
+![alt text](<images_docker/Capture d'écran 2025-02-11 102225.png>)
