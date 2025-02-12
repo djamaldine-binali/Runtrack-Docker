@@ -65,3 +65,9 @@ docker ps
 
 To find our container's ID, we can either use the `docker ps` command : 
 
+![alt text](images/docker_ps_id.png)
+
+Or look at our containers list on Docker Hub : 
+
+![alt text](images/id_container_list.png)
+
