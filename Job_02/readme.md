@@ -132,3 +132,18 @@ Checking it on browser.
 
 
 
+```sh
+Modifying someone eles's image.
+```
+
+We start by opening a shell into the running container using said image. 
+
+![alt text](images/Opening_shell.png)
+
+Using the paths to the files that we want to modify, we copy them into our local web file.
+
+![alt text](images/copy_from_shell.png)
+
+After we applied changes, rebuild the image. 
+
+![alt text](images/rebuild.png)
