@@ -161,4 +161,15 @@ And it's a succes !
 ![alt text](images/changed_page.png)
 
 We can also push our latest version of this image in Docker Hub like so :
-(I changed the name of the image to)
+
+
+![alt text](pushing_latest_modified.png)
+
+I changed the name of the image to avoid conflicts or authorization issues. 
+
+Then I check on Docker Hub if the image is available :
+
+![alt text](pushing_latest_modified.png)
+
+Huge succes once again !
+
