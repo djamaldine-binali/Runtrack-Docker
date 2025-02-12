@@ -16,3 +16,6 @@ It gracefully places itself in our file of local and Docker Hub images.
 
 ![alt text](images/pull_and_place.png)
 
+Another method would be to retrieve it by using Docker Desktop search engine. 
+
+![alt text](images/dekstop_image_search.png)
