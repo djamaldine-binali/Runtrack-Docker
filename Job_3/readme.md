@@ -93,3 +93,7 @@ We can also use Docker Desktop built in method :
 ![alt text](images/delete_container_2.png)
 
 ![alt text](images/delete_container_3.png)
+
+In etiher case, the container no longer exists :
+
+![alt text](images/proof_delete.png)
