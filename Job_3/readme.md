@@ -77,3 +77,19 @@ We can use the ID to stop our container :
 The container with the corresponding ID is stopped. 
 It can also be stopped with the stop button to its side directly on the list. 
 
+```sh
+docker rm
+```
+
+To delete the container completely, we can use the `docker rm` command. 
+
+Either with the container's name or its ID :
+
+![alt text](images/delete_container_1.png)
+
+
+We can also use Docker Desktop built in method :
+
+![alt text](images/delete_container_2.png)
+
+![alt text](images/delete_container_3.png)
