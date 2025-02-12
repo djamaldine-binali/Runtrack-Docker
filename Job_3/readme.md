@@ -47,3 +47,21 @@ Once we are done and click on "run" it should appear in our containers list :
 
 ![alt text](images/container_created.png)
 
+To acces the container, we just need to open our browser and use our port as a link : 
+
+![alt text](images/port_link_mario.png)
+
+We can now play super mario on our browser ! 
+
+![alt text](images/mario_game_1.png)
+
+![alt text](images/mario_game_2.png)
+
+![alt text](images/mario_game_3.png)
+
+```sh
+docker ps
+```
+
+To find our container's ID, we can either use the `docker ps` command : 
+
