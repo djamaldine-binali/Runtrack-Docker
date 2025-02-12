@@ -147,3 +147,7 @@ Using the paths to the files that we want to modify, we copy them into our local
 After we applied changes, rebuild the image. 
 
 ![alt text](images/rebuild.png)
+
+Once that's done we run a container using the rebuilt image. Checking if all is well as always !
+
+![alt text](images/running_checking_yanis_image.png)
