@@ -19,3 +19,31 @@ It gracefully places itself in our file of local and Docker Hub images.
 Another method would be to retrieve it by using Docker Desktop search engine. 
 
 ![alt text](images/dekstop_image_search.png)
+
+```sh 
+docker run
+```
+
+Now to run this image we can either use our command with the terminal or do it manually with Docker Desktop.
+
+Exemple with command : 
+
+![alt text](images/run_using_command.png)
+
+Exemple with Docker Desktop built in feature :
+
+First we need to go to our list of images and find the one we want to run. 
+Once we find it, click on the "play" icon.
+
+![alt text](images/clicking_icon.png)
+
+This window appears and we apply our wanted optional settings :
+
+![alt text](images/run_window_pop.png)
+
+![alt text](images/optional_settings.png)
+
+Once we are done and click on "run" it should appear in our containers list :
+
+![alt text](images/container_created.png)
+
