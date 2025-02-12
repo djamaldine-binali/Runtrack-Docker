@@ -151,3 +151,14 @@ After we applied changes, rebuild the image.
 Once that's done we run a container using the rebuilt image. Checking if all is well as always !
 
 ![alt text](images/running_checking_yanis_image.png)
+
+We can check if the new code matches what we see on the web page ...
+
+![alt text](images/changed_code.png)
+
+And it's a succes ! 
+
+![alt text](images/changed_page.png)
+
+We can also push our latest version of this image in Docker Hub like so :
+(I changed the name of the image to)
