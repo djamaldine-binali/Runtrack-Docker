@@ -71,3 +71,9 @@ Or look at our containers list on Docker Hub :
 
 ![alt text](images/id_container_list.png)
 
+We can use the ID to stop our container :
+![alt text](images/stop_container_id.png)
+
+The container with the corresponding ID is stopped. 
+It can also be stopped with the stop button to its side directly on the list. 
+
