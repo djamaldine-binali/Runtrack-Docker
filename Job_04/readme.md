@@ -45,3 +45,11 @@ We can now use all of those commands to create our Dockerfile like so :
 
 ![alt text](images/Dockerfile.png)
 
+----
+
+We can test our Dockerfile by creating an image and running a container with it. 
+
+* To do so, let's first navigate through our files and place ourselve in the same directory as the Dockerfile. 
+* After that we can build the image :
+
+![alt text](images/image_building.png)
