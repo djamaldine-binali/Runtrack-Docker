@@ -53,3 +53,15 @@ We can test our Dockerfile by creating an image and running a container with it.
 * After that we can build the image :
 
 ![alt text](images/image_building.png)
+
+Then we run a container using this image and check its port to see if all is well :
+
+![alt text](images/creating_container_w_image.png)
+
+![alt text](images/checking_port.png)
+
+We can stop it if we want :
+
+![alt text](images/command_stop.png)
+
+![alt text](<Capture d'écran 2025-02-13 123049.png>)
