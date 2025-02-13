@@ -1,7 +1,7 @@
-FROM httpd:latest
+FROM php:8-apache  
 
+COPY . /var/www/html  
 
-EXPOSE 80
+EXPOSE 80  
 
-CMD  ["httpd, -D, FOREGROUND"]
-
+CMD ["apache2-foreground"]
